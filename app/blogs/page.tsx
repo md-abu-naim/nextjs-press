@@ -2,6 +2,7 @@
 import { getPosts } from "../service/getPosts"
 
 const BlogsPage = async () => {
+  
   const posts = await getPosts()
   console.log(posts);
 
